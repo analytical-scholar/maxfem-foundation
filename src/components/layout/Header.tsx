@@ -82,9 +82,8 @@ export function Header() {
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
         >
-          {open ? <Menu className="hidden" /> : null}
           {open ? <X /> : <Menu />}
-        </Button>
+
       </div>
 
       {open ? (
