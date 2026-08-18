@@ -13,12 +13,13 @@ export function Hero() {
         height={1104}
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 -z-10 size-full object-cover object-center opacity-40"
+        className="absolute inset-0 -z-10 size-full object-cover object-center opacity-55"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-primary-deep/70 sm:bg-gradient-to-r sm:from-primary-deep/95 sm:via-primary-deep/80 sm:to-primary-deep/40"
+        className="absolute inset-0 -z-10 bg-primary-deep/70 sm:bg-gradient-to-r sm:from-primary-deep/95 sm:via-primary-deep/75 sm:to-primary-deep/25"
       />
+
 
       <div className="container-page py-20 md:py-28 lg:py-36">
         <div className="max-w-2xl">
