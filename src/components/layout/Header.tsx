@@ -83,6 +83,8 @@ export function Header() {
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X /> : <Menu />}
+        </Button>
+
 
       </div>
 
